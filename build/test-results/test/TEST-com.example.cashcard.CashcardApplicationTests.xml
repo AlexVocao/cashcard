@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.example.cashcard.CashcardApplicationTests" tests="3" skipped="0" failures="0" errors="0" timestamp="2024-06-15T14:20:45" hostname="Hoas-Mac-mini.local" time="0.551">
+  <properties/>
+  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="com.example.cashcard.CashcardApplicationTests" time="0.513"/>
+  <testcase name="shouldCreateANewCashCard()" classname="com.example.cashcard.CashcardApplicationTests" time="0.033"/>
+  <testcase name="shouldNotReturnACashCardWithAnUnknownId()" classname="com.example.cashcard.CashcardApplicationTests" time="0.004"/>
+  <system-out><![CDATA[22:20:44.305 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [com.example.cashcard.CashcardApplicationTests]: CashcardApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+22:20:44.346 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration com.example.cashcard.CashcardApplication for test class com.example.cashcard.CashcardApplicationTests
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+
+ :: Spring Boot ::                (v3.3.0)
+
+2024-06-15T22:20:44.488+08:00  INFO 70288 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : Starting CashcardApplicationTests using Java 17.0.10 with PID 70288 (started by caohoa in /Users/caohoa/Programming/spring_boot/workplaces/cashcard)
+2024-06-15T22:20:44.489+08:00  INFO 70288 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : No active profile set, falling back to 1 default profile: "default"
+2024-06-15T22:20:44.677+08:00  INFO 70288 --- [cashcard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2024-06-15T22:20:44.693+08:00  INFO 70288 --- [cashcard] [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 13 ms. Found 1 JDBC repository interface.
+2024-06-15T22:20:44.883+08:00  INFO 70288 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2024-06-15T22:20:44.889+08:00  INFO 70288 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-06-15T22:20:44.889+08:00  INFO 70288 --- [cashcard] [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.24]
+2024-06-15T22:20:44.914+08:00  INFO 70288 --- [cashcard] [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-06-15T22:20:44.914+08:00  INFO 70288 --- [cashcard] [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 419 ms
+2024-06-15T22:20:44.950+08:00  INFO 70288 --- [cashcard] [    Test worker] o.s.j.d.e.EmbeddedDatabaseFactory        : Starting embedded database: url='jdbc:h2:mem:1b499074-dc7f-491b-afb3-b079312cf1dc;DB_CLOSE_DELAY=-1;DB_CLOSE_ON_EXIT=false', username='sa'
+2024-06-15T22:20:45.224+08:00  INFO 70288 --- [cashcard] [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58841 (http) with context path '/'
+2024-06-15T22:20:45.229+08:00  INFO 70288 --- [cashcard] [    Test worker] c.e.cashcard.CashcardApplicationTests    : Started CashcardApplicationTests in 0.832 seconds (process running for 1.252)
+2024-06-15T22:20:45.634+08:00  INFO 70288 --- [cashcard] [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-06-15T22:20:45.634+08:00  INFO 70288 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2024-06-15T22:20:45.634+08:00  INFO 70288 --- [cashcard] [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
